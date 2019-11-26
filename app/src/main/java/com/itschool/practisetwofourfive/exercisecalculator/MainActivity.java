@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         editTextOne = findViewById(R.id.editText);
         editTextTwo = findViewById(R.id.editText2);
         result = findViewById(R.id.result_textView);
+
+
     }
 
     public void plusNum(View view) {
@@ -30,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, String.format("Number one: %f. Number two: %f", numOne, numTwo));
         result.setText(Double.toString(numOne + numTwo));
     }
+
+
 
 
     // реализуйте кнопки с методами вычитания, умножения, деления, очистки результатов
