@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     EditText editTextTwo;
     TextView result;
     final static String TAG = "Calculator:MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, String.format("Number one: %f. Number two: %f", numOne, numTwo));
         result.setText(Double.toString(numOne + numTwo));
     }
-
-
 
 
     // реализуйте кнопки с методами вычитания, умножения, деления, очистки результатов
