@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пример Калькулятора</string>
+    <string name="enterTwo">Введите второе число</string>
+    <string name="result">Результат %s</string>
+</resources>
