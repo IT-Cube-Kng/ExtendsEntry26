@@ -1,6 +1,6 @@
 package com.itschool.practisetwofourfive.exercisecalculator.extendExamples;
 
-public class Animal {
+public abstract class Animal {
     protected String nameType;
     protected Float weigth;
 

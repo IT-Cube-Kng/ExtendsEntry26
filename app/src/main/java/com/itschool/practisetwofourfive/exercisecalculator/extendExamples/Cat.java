@@ -1,6 +1,7 @@
 package com.itschool.practisetwofourfive.exercisecalculator.extendExamples;
 
-public class Cat extends Animal {
+
+public class Cat extends Animal implements Triggerable {
     private String name;
     private Integer old;
 
@@ -39,5 +40,15 @@ public class Cat extends Animal {
 
     public void setOld(Integer old) {
         this.old = old;
+    }
+
+    @Override
+    public void play() {
+        System.out.println("Играем вместе");
+    }
+
+
+    public void played(Triggerable eee) {
+        eee.play();
     }
 }

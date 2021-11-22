@@ -3,13 +3,12 @@ package com.itschool.practisetwofourfive.exercisecalculator.extendExamples;
 public class Main {
 
     public static void main(String[] args) {
-        Animal a = new Animal();
-        a.nameType = "Животное";
+        Animal an[] = new Animal[42];
 
 
         Cat c = new Cat("Мурзик");
-
-        System.out.println(a.getNameType());
-        System.out.println(c.getNameType());
+        Cat c2 = new Cat("Барсик");
+        Yarn y = new Yarn();
+        c.played(c2);
     }
 }

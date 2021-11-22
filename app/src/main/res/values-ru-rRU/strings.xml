@@ -3,4 +3,5 @@
     <string name="app_name">Пример Калькулятора</string>
     <string name="enterTwo">Введите второе число</string>
     <string name="result">Результат %s</string>
+    <string name="result_st_text">Результат:</string>
 </resources>

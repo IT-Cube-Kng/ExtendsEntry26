@@ -17,7 +17,8 @@
             android:id="@+id/et_op1"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_weight="0.5" />
+            android:layout_weight="0.5"
+            android:autofillHints="" />
 
 
         <EditText
@@ -43,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2"
-            android:text="Результат:" />
+            android:text="@string/result_st_text" />
 
         <TextView
             android:id="@+id/tw_result"
@@ -67,10 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-
-            android:drawableStart="@drawable/ic_werewolf"
-
-            />
+            android:drawableStart="@drawable/ic_werewolf" />
 
         <Button
             android:layout_width="wrap_content"
@@ -104,6 +102,7 @@
             android:id="@+id/imageView"
             android:layout_width="193dp"
             android:layout_height="182dp"
+            android:contentDescription="TODO"
             android:scaleType="centerCrop"
             android:src="@drawable/cat" />
 
